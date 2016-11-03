@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		55569F8C1DC8A9400095E025 /* ayannacolden-pset1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ayannacolden-pset1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55569F8F1DC8A9400095E025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55569F911DC8A9400095E025 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55569F911DC8A9400095E025 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		55569F941DC8A9400095E025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55569F961DC8A9400095E025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55569F991DC8A9400095E025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					55569F8B1DC8A93F0095E025 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 49T7C245FH;
 						ProvisioningStyle = Automatic;
 					};
 					55569F9F1DC8A9400095E025 = {
@@ -412,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49T7C245FH;
 				INFOPLIST_FILE = "ayannacolden-pset1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.ayannacolden-pset1";
@@ -424,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49T7C245FH;
 				INFOPLIST_FILE = "ayannacolden-pset1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.ayannacolden-pset1";
@@ -505,6 +508,7 @@
 				55569FB61DC8A9400095E025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55569FB71DC8A9400095E025 /* Build configuration list for PBXNativeTarget "ayannacolden-pset1Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +517,7 @@
 				55569FB91DC8A9400095E025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55569FBA1DC8A9400095E025 /* Build configuration list for PBXNativeTarget "ayannacolden-pset1UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				55569FBC1DC8A9400095E025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
